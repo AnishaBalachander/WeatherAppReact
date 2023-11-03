@@ -2,7 +2,7 @@
   "name": "wps-project-weather-app-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "dependencies": {
     "abab": "^2.0.5",
     "accepts": "^1.3.7",
@@ -788,8 +788,9 @@
     "gh-pages": "^6.0.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -797,5 +798,17 @@
     "url": "weather-app-react"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
