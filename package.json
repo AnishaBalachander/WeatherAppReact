@@ -25,7 +25,7 @@
       "react-app/jest"
     ]
   },
-  "homepage": "https://parthaaaaa.github.io/firstwebapp/",
+  "homepage": "https://anishabalachander.github.io/weather-app-react/",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "browserslist": {
