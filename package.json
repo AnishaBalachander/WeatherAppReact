@@ -17,6 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -24,6 +25,9 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://parthaaaaa.github.io/firstwebapp/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "browserslist": {
     "production": [
       ">0.2%",
